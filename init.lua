@@ -101,6 +101,9 @@ vim.opt.shiftwidth = 2
 -- See `:help vim.opt`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
+vim.o.number = true
+vim.o.relativenumber = true
+vim.o.statuscolumn = "%s %l %r"
 
 -- Make line numbers default
 vim.opt.number = true
